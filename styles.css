@@ -1,0 +1,75 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.api-section {
+    width: 90%;
+    max-width: 900px;
+    padding: 24px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    margin: 24px auto;
+}
+
+.api-content {
+    font-weight: bold;
+    font-style: italic;
+    color: #999;
+}
+
+.dog-card {
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 18rem;
+}
+
+.dog-image {
+    height: 300px;
+    object-fit: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.weather-text {
+    text-transform: capitalize;
+}
+
+.carousel-inner {
+    height: 600px;
+    background-color: black;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-request {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1rem 15%;
+}
+
+.carousel-request p {
+    display: block;
+    color: white;
+    font-size: 0.875rem;
+    max-height: 100%;
+    word-break: break-all;
+    margin: 0;
+}
